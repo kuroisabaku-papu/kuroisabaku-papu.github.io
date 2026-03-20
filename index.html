@@ -5,22 +5,23 @@
   <title>神聖パプー帝国</title>
 
   <style>
-    /* 背景：パプー色だけど淡くして目に優しく */
+    /* 背景：淡いパプー色のグラデーション（まぶしくない） */
     body {
-      background: linear-gradient(#FFF4D6, #E8D9C4);
-      color: #333;
-      font-family: "Rounded Mplus 1c", sans-serif;
+      margin: 0;
       padding: 20px;
+      background: linear-gradient(#FFF4D6, #E8D9C4);
+      font-family: "Rounded Mplus 1c", sans-serif;
+      color: #333;
     }
 
     /* 中央の白いカード（まとめサイト風） */
     .container {
       max-width: 900px;
       margin: 0 auto;
-      background: #ffffffcc; /* 透明度つき白でまぶしくない */
+      background: rgba(255, 255, 255, 0.9); /* 透明度つき白で優しい */
       padding: 20px;
       border-radius: 12px;
-      box-shadow: 0 0 10px #00000010;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
 
     /* メニュー（ナビゲーション） */
@@ -29,10 +30,11 @@
       padding: 10px;
       border-radius: 12px;
       margin-bottom: 20px;
+      text-align: center;
     }
 
     .menu a {
-      margin-right: 15px;
+      margin: 0 10px;
       text-decoration: none;
       color: #333;
       font-weight: bold;
