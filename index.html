@@ -3,31 +3,73 @@
 <head>
   <meta charset="UTF-8">
   <title>神聖パプー帝国</title>
-<style>
-  <body>
-  <div class="container">
-  body {
-  background: #FFF4D6; /* クリーム色 */
-  background: linear-gradient(#FFF4D6, #E8D9C4); /* クリーム→砂浜のグラデ */
-  color: #333;
-  font-family: "Rounded Mplus 1c", sans-serif;
-  padding: 20px;
-}
 
-/* 中央の白いカード */
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  background: #ffffffcc; /* 透明度つき白（まぶしくない） */
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 0 10px #00000010;}
-  </div>
-</body>  
-</style>
+  <style>
+    /* 背景：パプー色だけど淡くして目に優しく */
+    body {
+      background: linear-gradient(#FFF4D6, #E8D9C4);
+      color: #333;
+      font-family: "Rounded Mplus 1c", sans-serif;
+      padding: 20px;
+    }
+
+    /* 中央の白いカード（まとめサイト風） */
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #ffffffcc; /* 透明度つき白でまぶしくない */
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px #00000010;
+    }
+
+    /* メニュー（ナビゲーション） */
+    .menu {
+      background: #AEE6F8;
+      padding: 10px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+
+    .menu a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .menu a:hover {
+      text-decoration: underline;
+    }
+
+    /* タイトル（ふわっとパプー色） */
+    h1 {
+      background: #AEE6F8;
+      padding: 15px;
+      border-radius: 12px;
+      border-bottom: 5px solid #E8D9C4;
+      text-align: center;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>ようこそ、神聖パプー帝国へ！</h1>
-  <p>ここはゆるくてかわいいパプーたちの島ぷ。</p>
+  <div class="container">
+
+    <!-- メニュー -->
+    <nav class="menu">
+      <a href="index.html">トップ</a>
+      <a href="about.html">ギルド紹介</a>
+      <a href="events.html">イベント記事まとめ</a>
+      <a href="blog.html">イベントブログ</a>
+      <a href="join.html">加入案内</a>
+    </nav>
+
+    <!-- トップページ本文 -->
+    <h1>ようこそ、神聖パプー帝国へ！</h1>
+    <p>ここは、ゆるくてかわいいパプーたちが集まる小さな島ぷ。</p>
+    <p>自由に、気ままに、好きなときに遊ぶギルドですぷ。</p>
+
+  </div>
 </body>
 </html>
