@@ -98,15 +98,15 @@
 </head>
 
 <body>
-  <div class="container">
+  <div id="menu-container"></div>
 
-    <nav class="menu">
-      <a href="index.html">トップ</a>
-      <a href="about.html">ギルド紹介</a>
-      <a href="updates.html">アプデ情報まとめ</a>
-      <a href="blog.html">ブログ</a>
-      <a href="menu.html">メニュー</a>
-    </nav>
+<script>
+  fetch("menu.html")
+    .then(res => res.text())
+    .then(html => {
+      document.getElementById("menu-container").innerHTML = html;
+    });
+</script>
 
     <h1>情報メニュー</h1>
     <p>ここから、パプー帝国の各種データや情報にアクセスできるぷ。</p>
