@@ -4,26 +4,10 @@
   <meta charset="UTF-8">
   <title>2026/03/19 アプデ情報まとめぷ</title>
 
+  <!-- 記念すべき１記事目ぷ！DCの方ではいっぱいやってるけどぷ… -->
+  <link rel="stylesheet" href="../css/menu.css">
+
   <style>
-  .menu {
-    background: #AEE6F8;
-    padding: 10px;
-    border-radius: 12px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-
-  .menu a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-  }
-
-  .menu a:hover {
-    text-decoration: underline;
-  }
-    
     body {
       margin: 0;
       padding: 20px;
@@ -70,16 +54,18 @@
 </head>
 
 <body>
-<body>
   <div class="container">
 
-    <nav class="menu">
-      <a href="../index.html">トップ</a>
-      <a href="../about.html">ギルド紹介</a>
-      <a href="../updates.html">アプデ情報まとめ</a>
-      <a href="../blog.html">ブログ</a>
-      <a href="../menu.html">メニュー</a>
-    </nav>
+    <!-- 共通メニュー読み込みぷ -->
+    <div id="menu-container"></div>
+    <script>
+      fetch("../menu.html")
+        .then(res => res.text())
+        .then(html => {
+          document.getElementById("menu-container").innerHTML = html;
+        });
+    </script>
+
     
     <h1>🌟 今週のアプデ情報まとめぷ 🌟</h1>
 
