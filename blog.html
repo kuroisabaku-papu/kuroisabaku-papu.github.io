@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>ブログ - 神聖パプー帝国</title>
+  <link rel="stylesheet" href="css/menu.css">
+
 
   <style>
     body {
@@ -61,13 +63,15 @@
 <body>
   <div class="container">
 
-    <nav class="menu">
-      <a href="index.html">トップ</a>
-      <a href="about.html">ギルド紹介</a>
-      <a href="updates.html">アプデ情報まとめ</a>
-      <a href="blog.html">ブログ</a>
-      <a href="menu.html">メニュー</a>
-    </nav>
+    <div id="menu-container"></div>
+    <script>
+      fetch("menu.html")
+        .then(res => res.text())
+        .then(html => {
+          document.getElementById("menu-container").innerHTML = html;
+        });
+    </script>
+
 
     <h1>ブログ</h1>
 
