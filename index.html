@@ -99,15 +99,18 @@
 </head>
 
 <body>
-  <div id="menu-container"></div>
+  <div class="container">
 
-<script>
-  fetch("menu.html")
-    .then(res => res.text())
-    .then(html => {
-      document.getElementById("menu-container").innerHTML = html;
-    });
-</script>
+    <div id="menu-container"></div>
+
+    <script>
+      fetch("menu.html")
+        .then(res => res.text())
+        .then(html => {
+          document.getElementById("menu-container").innerHTML = html;
+        });
+    </script>
+
 
     <h1>情報メニュー</h1>
     <p>ここから、パプー帝国の各種データや情報にアクセスできるぷ。</p>
