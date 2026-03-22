@@ -56,17 +56,15 @@
 <body>
   <div class="container">
 
-    <!-- 共通メニュー読み込みぷ -->
     <div id="menu-container"></div>
-    <script>
-      fetch("../menu.html")
-        .then(res => res.text())
-        .then(html => {
-          document.getElementById("menu-container").innerHTML = html;
-        });
-    </script>
+<script>
+  fetch("/nav.html")
+    .then(res => res.text())
+    .then(html => {
+      document.getElementById("menu-container").innerHTML = html;
+    });
+</script>
 
-    
     <h1>🌟 今週のアプデ情報まとめぷ 🌟</h1>
 
     <h2>🗺️ 新狩場：エダニア3人PT狩り場（黒いオーラの氾濫地）</h2>
