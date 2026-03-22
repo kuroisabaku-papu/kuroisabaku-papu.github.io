@@ -73,20 +73,3 @@ h1 {
   font-size: 14px;
   color: #555;
 }
-
-/* ダークモード対策ぷ */
-@media (prefers-color-scheme: dark) {
-  body {
-    /* グラデーションを透明にして背景画像を守るぷ */
-    background:
-      linear-gradient(#0000, #0000),
-      url("/images/paputakusan1.png") no-repeat center center fixed !important;
-    background-size: cover !important;
-  }
-
-  /* container だけ少し暗くする（読みやすさ重視） */
-  .container {
-    background: rgba(255, 255, 255, 0.85); /* ← ほぼ白のまま */
-    color: #333; /* ← 通常モードと同じ */
-  }
-}
