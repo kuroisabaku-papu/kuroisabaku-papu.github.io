@@ -75,12 +75,12 @@ h1 {
   color: #555;
 }
 
-/* 特定の文字だけ白くするぷ */
+/* 白コマぷ */
 .highlight-white {
   color: #fff !important;
 }
 
-/* 特定の文字だけ黒に戻すぷ */
-.info-menu-text {
+/* 黒コマンドぷ */
+.highlight-black {
   color: #333 !important;
 }
