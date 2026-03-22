@@ -1,4 +1,4 @@
-/* 全ページ共通の背景ぷ */
+/* 背景ぷ */
 body {
   margin: 0;
   padding: 20px;
@@ -20,7 +20,60 @@ body {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* ダークモード対策：背景画像を守るぷ */
+/* h1ぷ */
+h1 {
+  background: #AEE6F8;
+  padding: 15px;
+  border-radius: 12px;
+  border-bottom: 5px solid #DFF5D2;
+  text-align: center;
+}
+
+/* カード一覧ぷ */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* カードぷ */
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+  text-decoration: none;
+  color: #333;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card-desc {
+  font-size: 14px;
+  color: #555;
+}
+
+/* ダークモード対策ぷ */
 @media (prefers-color-scheme: dark) {
   body {
     background:
