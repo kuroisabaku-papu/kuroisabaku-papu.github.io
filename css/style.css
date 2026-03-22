@@ -76,14 +76,16 @@ h1 {
 /* ダークモード対策ぷ */
 @media (prefers-color-scheme: dark) {
   body {
+    /* グラデーションを透明にしてるぷ、グラいらない説もあるぷ */
     background:
-      linear-gradient(#AEE6F880, #DFF5D280),
+      linear-gradient(#0000, #0000),
       url("/images/paputakusan1.png") no-repeat center center fixed !important;
     background-size: cover !important;
+    color: #eee;
   }
 
   .container {
-    background: rgba(30, 30, 30, 0.8);
+    background: rgba(30, 30, 30, 0.85);
     color: #eee;
   }
 }
