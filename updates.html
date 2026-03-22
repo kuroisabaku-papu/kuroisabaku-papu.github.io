@@ -65,14 +65,12 @@
 
     <div id="menu-container"></div>
 <script>
-  fetch("nav.html")
+  fetch("/nav.html")
     .then(res => res.text())
     .then(html => {
       document.getElementById("menu-container").innerHTML = html;
     });
 </script>
-
-
 
     <h1>アプデ情報まとめ</h1>
 
