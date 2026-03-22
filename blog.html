@@ -63,14 +63,13 @@
   <div class="container">
 
     <div id="menu-container"></div>
-    <script>
-      fetch("menu.html")
-        .then(res => res.text())
-        .then(html => {
-          document.getElementById("menu-container").innerHTML = html;
-        });
-    </script>
-
+<script>
+  fetch("/nav.html")
+    .then(res => res.text())
+    .then(html => {
+      document.getElementById("menu-container").innerHTML = html;
+    });
+</script>
 
     <h1>ブログ</h1>
 
