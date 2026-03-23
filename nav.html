@@ -4,4 +4,19 @@
   <a href="/updates-list.html">アプデ情報まとめ</a>
   <a href="/about.html">ギルド紹介</a>
   <a href="/menu.html">メニュー</a>
+  <!-- ★ 夜モードボタンぷ！ -->
+  <button id="darkmode-toggle">🌙 夜モード</button>
 </nav>
+<script>
+  const toggle = document.getElementById("darkmode-toggle");
+
+  toggle.addEventListener("click", () => {
+    document.body.classList.toggle("darkmode");
+
+    if (document.body.classList.contains("darkmode")) {
+      toggle.textContent = "☀️ 昼モード";
+    } else {
+      toggle.textContent = "🌙 夜モード";
+    }
+  });
+</script>
