@@ -22,19 +22,27 @@
 
 <!-- ★ 夜モードスクリぷト -->
 <script>
+  // ページ読み込み時に夜モードを復元
+  if (localStorage.getItem("darkmode") === "on") {
+    document.body.classList.add("darkmode");
+  }
+
   document.addEventListener("click", (e) => {
     if (e.target.id === "darkmode-toggle") {
       document.body.classList.toggle("darkmode");
 
-      // ボタンの表示切り替え
+      // 状態を保存
       if (document.body.classList.contains("darkmode")) {
+        localStorage.setItem("darkmode", "on");
         e.target.textContent = "☀️ 昼モード";
       } else {
+        localStorage.setItem("darkmode", "off");
         e.target.textContent = "🌙 夜モード";
       }
     }
   });
 </script>
+
     <h1 class="highlight-black">情報メニュー</h1>
     <p class="highlight-white">
   ここから、パプー帝国の各種データや情報にアクセスできるぷ。
