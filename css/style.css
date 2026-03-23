@@ -112,15 +112,47 @@ body.darkmode {
   background-color: #1e2a38 !important;
 }
 
-/* nav のリンク文字色も夜用に */
-.darkmode nav.menu a {
-  color: #cfd8e3 !important;
-}
-
 body.darkmode h1 {
   background: #1e2a38; /* 夜の深い青 */
   border-bottom: 5px solid #243447; /* 夜用の落ち着いた色 */
   color: #cfd8e3; /* 夜用の文字色 */
+}
+
+/* ===========================
+   夜モード：文字色統一セット
+   =========================== */
+
+/* nav （夜用）*/
+.darkmode nav.menu a {
+  color: #cfd8e3 !important;
+}
+
+/* h1（夜用） */
+body.darkmode h1 {
+  background: #1e2a38;
+  border-bottom: 5px solid #243447;
+  color: #cfd8e3 !important;
+}
+
+/* h2（夜用） */
+body.darkmode h2 {
+  color: #cfd8e3 !important;
+}
+
+/* highlight-black（夜用） */
+body.darkmode .highlight-black {
+  color: #cfd8e3 !important;
+}
+
+/* カード全体の文字色（夜用） */
+body.darkmode .card {
+  background: #1e2a38;
+  color: #cfd8e3 !important;
+}
+
+/* カード説明文（夜用） */
+body.darkmode .card-desc {
+  color: #cfd8e3 !important;
 }
 
 /* 夜モードボタン（昼） */
