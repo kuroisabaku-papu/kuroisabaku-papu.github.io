@@ -10,6 +10,7 @@
 <body>
   <div class="container">
 
+    <!-- 共通メニュー -->
     <div id="menu-container"></div>
 <script>
   fetch("/nav.html")
@@ -19,6 +20,21 @@
     });
 </script>
 
+<!-- ★ 夜モードスクリぷト -->
+<script>
+  document.addEventListener("click", (e) => {
+    if (e.target.id === "darkmode-toggle") {
+      document.body.classList.toggle("darkmode");
+
+      // ボタンの表示切り替え
+      if (document.body.classList.contains("darkmode")) {
+        e.target.textContent = "☀️ 昼モード";
+      } else {
+        e.target.textContent = "🌙 夜モード";
+      }
+    }
+  });
+</script>
     <h1 class="highlight-black">アプデ情報まとめぷ</h1>
 
     <p>ここでは、黒い砂漠のアップデート情報をまとめていくぷ。</p>
