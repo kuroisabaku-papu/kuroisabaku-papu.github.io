@@ -117,6 +117,12 @@ body.darkmode {
   color: #cfd8e3 !important;
 }
 
+body.darkmode h1 {
+  background: #1e2a38; /* 夜の深い青 */
+  border-bottom: 5px solid #243447; /* 夜用の落ち着いた色 */
+  color: #cfd8e3; /* 夜用の文字色 */
+}
+
 /* 夜モードボタン（昼） */
 .darkmode-button {
   background: #4aa3ff;
