@@ -10,13 +10,30 @@
 <body>
   <div class="container">
 
-    <div id="menu-container"></div>
+    <!-- 共通メニュー -->
+  <div id="menu-container"></div>
 <script>
   fetch("/nav.html")
     .then(res => res.text())
     .then(html => {
       document.getElementById("menu-container").innerHTML = html;
     });
+</script>
+
+<!-- ★ 夜モードスクリぷト -->
+<script>
+  document.addEventListener("click", (e) => {
+    if (e.target.id === "darkmode-toggle") {
+      document.body.classList.toggle("darkmode");
+
+      // ボタンの表示切り替え
+      if (document.body.classList.contains("darkmode")) {
+        e.target.textContent = "☀️ 昼モード";
+      } else {
+        e.target.textContent = "🌙 夜モード";
+      }
+    }
+  });
 </script>
 
     <h1 class="highlight-black">ブログ</h1>
