@@ -84,3 +84,36 @@ h1 {
 .highlight-black {
   color: #333 !important;
 }
+
+/* ===========================
+   夜モード（サイト独自）
+   =========================== */
+
+.darkmode body {
+  background:
+    linear-gradient(#000000aa, #000000aa),
+    url("/images/paputakusan1-night.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* container（大きい箱）は昼夜共通で透け黒 */
+.darkmode .container {
+  background: rgba(0, 0, 0, 0.55);
+  color: #eee;
+}
+
+/* カードは夜モードで深い青グレーに */
+.darkmode .card {
+  background: #1e2a38; /* ← チャット左メニューに近い色 */
+  color: #eee;
+}
+
+/* 共通メニュー（nav.html）の背景色を夜用に */
+.darkmode nav {
+  background-color: #1e2a38 !important;
+}
+
+/* メニュー内の文字色も夜用に */
+.darkmode nav a {
+  color: #cfd8e3 !important;
+}
