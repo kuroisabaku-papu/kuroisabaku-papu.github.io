@@ -92,7 +92,7 @@ h1 {
 .darkmode body {
   background:
     linear-gradient(#000000aa, #000000aa),
-    url("/images/paputakusan1-night.png") no-repeat center center fixed;
+    url("/images/paputakusan2.png") no-repeat center center fixed;
   background-size: cover;
 }
 
