@@ -10,13 +10,37 @@
 <body>
   <div class="container">
 
-    <div id="menu-container"></div>
+<!-- 共通メニュー -->
+  <div id="menu-container"></div>
 <script>
   fetch("/nav.html")
     .then(res => res.text())
     .then(html => {
       document.getElementById("menu-container").innerHTML = html;
     });
+</script>
+
+<!-- ★ 夜モードスクリぷト -->
+<script>
+  // ページ読み込み時に夜モードを復元
+  if (localStorage.getItem("darkmode") === "on") {
+    document.body.classList.add("darkmode");
+  }
+
+  document.addEventListener("click", (e) => {
+    if (e.target.id === "darkmode-toggle") {
+      document.body.classList.toggle("darkmode");
+
+      // 状態を保存
+      if (document.body.classList.contains("darkmode")) {
+        localStorage.setItem("darkmode", "on");
+        e.target.textContent = "☀️ 昼モード";
+      } else {
+        localStorage.setItem("darkmode", "off");
+        e.target.textContent = "🌙 夜モード";
+      }
+    }
+  });
 </script>
 
     <h1>🌟 今週のアプデ情報まとめぷ 🌟</h1>
