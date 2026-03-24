@@ -114,28 +114,5 @@
 </div>
 </div>
 
-<!-- イベントカレンダーぷ -->
-<h2 class="highlight-black">イベントカレンダー</h2>
-<div id="events-container"></div>
-
-<script>
-fetch("/data/events.json")
-  .then(res => res.json())
-  .then(events => {
-    const container = document.getElementById("events-container");
-
-    events.forEach(ev => {
-      const bar = `
-        <div class="event-bar">
-          <div class="event-title">${ev.title}</div>
-          <div class="event-range">${ev.start} 〜 ${ev.end}</div>
-          <a class="event-link" href="${ev.link}" target="_blank"></a>
-        </div>
-      `;
-      container.innerHTML += bar;
-    });
-  });
-</script>
-
 </body>
 </html>
