@@ -1,0 +1,20 @@
+[
+  {
+    "id": "hottime",
+    "title": "Hot Time イベント",
+    "start": "2024-02-20",
+    "end": "2024-03-06",
+    "image": "/images/events/hottime.png",
+    "link": "https://www.jp.playblackdesert.com/News/Detail?groupContentNo=XXXXX",
+    "desc": "経験値 +300%、スキル経験値 +50% のイベント"
+  },
+  {
+    "id": "login",
+    "title": "ログイン報酬イベント",
+    "start": "2024-02-01",
+    "end": "2024-02-29",
+    "image": "/images/events/login.png",
+    "link": "https://www.jp.playblackdesert.com/News/Detail?groupContentNo=YYYYY",
+    "desc": "毎日ログインで報酬がもらえるイベント"
+  }
+]
