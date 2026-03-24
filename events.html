@@ -12,20 +12,36 @@
 
     <!-- 共通メニュー -->
     <div id="menu-container"></div>
-    <script>
-      fetch("/nav.html")
-        .then(res => res.text())
-        .then(html => {
-          document.getElementById("menu-container").innerHTML = html;
-        });
-    </script>
+<script>
+  fetch("/nav.html")
+    .then(res => res.text())
+    .then(html => {
+      document.getElementById("menu-container").innerHTML = html;
+    });
+</script>
 
-    <!-- 夜モード復元 -->
-    <script>
-      if (localStorage.getItem("darkmode") === "on") {
-        document.body.classList.add("darkmode");
+<!-- ★ 夜モードスクリぷト -->
+<script>
+  // ページ読み込み時に夜モードを復元
+  if (localStorage.getItem("darkmode") === "on") {
+    document.body.classList.add("darkmode");
+  }
+
+  document.addEventListener("click", (e) => {
+    if (e.target.id === "darkmode-toggle") {
+      document.body.classList.toggle("darkmode");
+
+      // 状態を保存
+      if (document.body.classList.contains("darkmode")) {
+        localStorage.setItem("darkmode", "on");
+        e.target.textContent = "☀️ 昼モード";
+      } else {
+        localStorage.setItem("darkmode", "off");
+        e.target.textContent = "🌙 夜モード";
       }
-    </script>
+    }
+  });
+</script>
 
     <h1 class="highlight-black">イベント一覧</h1>
     <p class="highlight-white">現在開催中のイベントをまとめたぷ。</p>
