@@ -194,7 +194,7 @@ body.darkmode .darkmode-button:hover {
   color: white;
   cursor: pointer;
   transition: 0.2s;
-  border-left: 6px solid #6bb6ff;
+  border-left: 6px solid #6bb6ff; /* ← とりあえずの水色 */
 }
 
 .event-bar:hover {
@@ -218,26 +218,17 @@ body.darkmode .darkmode-button:hover {
 }
 
 /* イベントバーのCSSのタグカラーぷ */
-.event-bar {
-  background-color: #A8D8FF; /* デフォルトの水色 */
-  border-radius: 24px;
-  padding: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* 戦闘・狩り */
+/* 戦闘・狩り（赤） */
 .event-bar.battle {
-  background-color: #FFB3B3;
+  border-left-color: #FFB3B3;
 }
 
-/* 生活（釣り・栽培など） */
+/* 生活（緑） */
 .event-bar.life {
-  background-color: #B8E8C6;
+  border-left-color: #B8E8C6;
 }
 
-/* お宝・報酬 */
+/* お宝（黄色） */
 .event-bar.reward {
-  background-color: #FFE9A8;
+  border-left-color: #FFE9A8;
 }
