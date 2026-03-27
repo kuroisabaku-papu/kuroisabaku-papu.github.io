@@ -216,3 +216,28 @@ body.darkmode .darkmode-button:hover {
   position: absolute;
   inset: 0;
 }
+
+/* イベントバーのCSSのタグカラーぷ */
+.event-bar {
+  background-color: #A8D8FF; /* デフォルトの水色 */
+  border-radius: 24px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 戦闘・狩り */
+.event-bar.battle {
+  background-color: #FFB3B3;
+}
+
+/* 生活（釣り・栽培など） */
+.event-bar.life {
+  background-color: #B8E8C6;
+}
+
+/* お宝・報酬 */
+.event-bar.reward {
+  background-color: #FFE9A8;
+}
