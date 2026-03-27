@@ -6,7 +6,7 @@
   "image": "/images/events/hottime.png",
   "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11713&countryType=ja-JP",
   "type": ""
-　}
+  }
   {
     "title": "嘘のようなスペシャルログイン報酬",
     "start": "2026-03-26",
@@ -14,14 +14,14 @@
     "image": "/images/paputakusan1.png",
     "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11712&countryType=ja-JP",
     "type": "reward"
-  }
+  }ss
   {
     "title": "少し変わった宝物等級の魚",
     "start": "2026-03-26（木）メンテナンス後",
     "end": "2026-04-09（木）メンテナンス前",
     "image": "+",
     "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11711&countryType=ja-JP",
-    "type": "+"
+    "type": ""
 　}
   {
   "title": "パトリジオの秘密商店",
@@ -30,7 +30,7 @@
   "image": "+",
   "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11679&countryType=ja-JP",
   "type": ""
-　}
+  }
   {
   "title": "協力してアトラクシオンを攻略！",
   "start": "2026-03-19（木）メンテナンス後",
@@ -38,7 +38,7 @@
   "image": "+",
   "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11678&countryType=ja-JP",
   "type": ""
-　}
+  }
   {
   "title": "赤兎馬",
   "start": "2026-01-29（木）メンテナンス後",
@@ -46,7 +46,7 @@
   "image": "+",
   "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11498&countryType=ja-JP",
   "type": "life"
-　}
+  }
   {
   "title": "ベテラン&ルーキー",
   "start": "2026-03-05（木）メンテナンス後",
@@ -54,5 +54,5 @@
   "image": "+",
   "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11616&countryType=ja-JP",
   "type": "reward"
-　}
+  }
 ]
