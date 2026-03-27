@@ -1,58 +1,58 @@
 [
   {
-  "title": "転換ローテーション：二つの闇",
-  "start": "2026-03-26（木）メンテナンス後",
-  "end": "2026-04-16（木）メンテナンス前",
-  "image": "/images/events/hottime.png",
-  "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11713&countryType=ja-JP",
-  "type": ""
-  }
+    "title": "転換ローテーション：二つの闇",
+    "start": "2026-03-26",
+    "end": "2026-04-16",
+    "image": "/images/events/hottime.png",
+    "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11713&countryType=ja-JP",
+    "type": ""
+  },
   {
     "title": "嘘のようなスペシャルログイン報酬",
     "start": "2026-03-26",
-    "end": "2026-04-15(水)23:59",
+    "end": "2026-04-15",
     "image": "/images/paputakusan1.png",
     "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11712&countryType=ja-JP",
     "type": "reward"
-  }
+  },
   {
     "title": "少し変わった宝物等級の魚",
-    "start": "2026-03-26（木）メンテナンス後",
-    "end": "2026-04-09（木）メンテナンス前",
-    "image": "+",
+    "start": "2026-03-26",
+    "end": "2026-04-09",
+    "image": "",
     "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11711&countryType=ja-JP",
+    "type": "life"
+  },
+  {
+    "title": "パトリジオの秘密商店",
+    "start": "2026-03-19",
+    "end": "2026-04-02",
+    "image": "",
+    "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11679&countryType=ja-JP",
     "type": ""
-  }
+  },
   {
-  "title": "パトリジオの秘密商店",
-  "start": "2026-03-19（木）メンテナンス後",
-  "end": "2026-04-02（木）メンテナンス前",
-  "image": "+",
-  "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11679&countryType=ja-JP",
-  "type": ""
-  }
+    "title": "協力してアトラクシオンを攻略！",
+    "start": "2026-03-19",
+    "end": "2026-04-01",
+    "image": "",
+    "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11678&countryType=ja-JP",
+    "type": ""
+  },
   {
-  "title": "協力してアトラクシオンを攻略！",
-  "start": "2026-03-19（木）メンテナンス後",
-  "end": "2026-04-01（水）23:59",
-  "image": "+",
-  "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11678&countryType=ja-JP",
-  "type": ""
-  }
+    "title": "赤兎馬",
+    "start": "2026-01-29",
+    "end": "2026-06-11",
+    "image": "",
+    "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11498&countryType=ja-JP",
+    "type": "life"
+  },
   {
-  "title": "赤兎馬",
-  "start": "2026-01-29（木）メンテナンス後",
-  "end": "2026-06-11（木）メンテナンス前",
-  "image": "+",
-  "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11498&countryType=ja-JP",
-  "type": "life"
-  }
-  {
-  "title": "ベテラン&ルーキー",
-  "start": "2026-03-05（木）メンテナンス後",
-  "end": "2026-07-09（木）メンテナンス前",
-  "image": "+",
-  "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11616&countryType=ja-JP",
-  "type": "reward"
+    "title": "ベテラン&ルーキー",
+    "start": "2026-03-05",
+    "end": "2026-07-09",
+    "image": "",
+    "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11616&countryType=ja-JP",
+    "type": "reward"
   }
 ]
