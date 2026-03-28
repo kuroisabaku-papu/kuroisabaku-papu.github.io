@@ -232,3 +232,20 @@ body.darkmode .darkmode-button:hover {
 .event-bar.reward {
   border-left-color: #FFE9A8;
 }
+/* イベントバーのレイアウト調整ぷ */
+.event-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px; /* ← 高さ固定 */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* イベントアイコンぷ（右端＆サイズ調整） */
+.event-icon {
+  width: 120px;   /* 好きに調整OK */
+  height: auto;
+  margin-left: auto;
+  flex-shrink: 0;
+}
