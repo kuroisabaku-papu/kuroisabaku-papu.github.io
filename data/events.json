@@ -3,7 +3,7 @@
     "title": "転換ローテーション：二つの闇",
     "start": "2026-03-26",
     "end": "2026-04-16",
-    "image": "/images/events/hottime.png",
+    "image": "/images/bouken.png",
     "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11713&countryType=ja-JP",
     "type": ""
   },
@@ -28,18 +28,18 @@
     "title": "パトリジオの秘密商店",
     "start": "2026-03-19",
     "end": "2026-04-02",
-    "image": "/images/purezento",
+    "image": "/images/purezento.png",
     "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11679&countryType=ja-JP",
-    "type": ""
+    "type": "reward"
     "alt": "Black Desert Onlineのパトリジオイベントを示すアイコン"
   },
   {
     "title": "協力してアトラクシオンを攻略！",
     "start": "2026-03-19",
     "end": "2026-04-01",
-    "image": "/images/.png",
+    "image": "/images/pt.png",
     "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11678&countryType=ja-JP",
-    "type": "/images/pt.png"
+    "type": ""
     "alt": "Black Desert Onlineのアトラクシオンイベントを示すアイコン"
   },
   {
