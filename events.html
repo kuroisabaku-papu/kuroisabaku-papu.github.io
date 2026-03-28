@@ -60,8 +60,11 @@
 events.forEach(ev => {
   const bar = `
     <div class="event-bar ${ev.type}">
+      <div>
         <div class="event-title">${ev.title}</div>
         <div class="event-range">${ev.start} 〜 ${ev.end}</div>
+      </div>
+
       <a class="event-link" href="${ev.link}" target="_blank"></a>
     </div>
   `;
