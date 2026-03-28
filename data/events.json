@@ -19,40 +19,45 @@
     "title": "少し変わった宝物等級の魚",
     "start": "2026-03-26",
     "end": "2026-04-09",
-    "image": "",
+    "image": "/images/turi.png",
     "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11711&countryType=ja-JP",
     "type": "life"
+    "alt": "Black Desert Onlineの生活系釣りイベントを示すアイコン"
   },
   {
     "title": "パトリジオの秘密商店",
     "start": "2026-03-19",
     "end": "2026-04-02",
-    "image": "",
+    "image": "/images/purezento",
     "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11679&countryType=ja-JP",
     "type": ""
+    "alt": "Black Desert Onlineのパトリジオイベントを示すアイコン"
   },
   {
     "title": "協力してアトラクシオンを攻略！",
     "start": "2026-03-19",
     "end": "2026-04-01",
-    "image": "",
+    "image": "/images/.png",
     "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11678&countryType=ja-JP",
-    "type": ""
+    "type": "/images/pt.png"
+    "alt": "Black Desert Onlineのアトラクシオンイベントを示すアイコン"
   },
   {
     "title": "赤兎馬",
     "start": "2026-01-29",
     "end": "2026-06-11",
-    "image": "",
+    "image": "/images/uma.png",
     "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11498&countryType=ja-JP",
     "type": "life"
+    "alt": "Black Desert Onlineの調教イベントを示すアイコン"
   },
   {
     "title": "ベテラン&ルーキー",
     "start": "2026-03-05",
     "end": "2026-07-09",
-    "image": "",
+    "image": "/images/butubutu.png",
     "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11616&countryType=ja-JP",
     "type": "reward"
+    "alt": "Black Desert Onlineのベテランルーキーイベントを示すアイコン"
   }
 ]
