@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>2026/03/19 アプデ情報まとめぷ</title>
+　<link rel="stylesheet" href="/css/style.css">
+　<link rel="stylesheet" href="/css/menu.css"> 
+</head>
+
+<body>
+  <div class="container">
+
+<!-- 共通メニュー -->
+  <div id="menu-container"></div>
+<script>
+  fetch("/nav.html")
+    .then(res => res.text())
+    .then(html => {
+      document.getElementById("menu-container").innerHTML = html;
+    });
+</script>
+
+<!-- ★ 夜モードスクリぷト -->
+<script>
+  // ページ読み込み時に夜モードを復元
+  if (localStorage.getItem("darkmode") === "on") {
+    document.body.classList.add("darkmode");
+  }
+
+  document.addEventListener("click", (e) => {
+    if (e.target.id === "darkmode-toggle") {
+      document.body.classList.toggle("darkmode");
+
+      // 状態を保存
+      if (document.body.classList.contains("darkmode")) {
+        localStorage.setItem("darkmode", "on");
+        e.target.textContent = "☀️ 昼モード";
+      } else {
+        localStorage.setItem("darkmode", "off");
+        e.target.textContent = "🌙 夜モード";
+      }
+    }
+  });
+</script>
+    
+<h1>🌟✨ 今週のアプデ情報まとめぷ！ ✨🌟</h1>
+
+<h2>🔥 転換ローテーション：二つの闇</h2>
+<p>
+ソーサレスとダークナイトへの転換が <strong>1シルバー</strong> でできるぷ！<br>
+特に <strong>ダークナイト伝承は狩り最強クラス</strong> だから、まだ触ってない人はこの機会に試してみると楽しいぷよ〜。
+</p>
+
+<h2>🎁 嘘のようなスペシャルログイン報酬</h2>
+<p>
+ログインするだけで <strong>お得アイテムが大量ゲット</strong> できるぷ！<br>
+毎日ぽちっと押すだけでOKぷ〜。
+</p>
+
+<h2>🎣 少し変わった宝物等級の魚</h2>
+<p>
+イベント期間中は <strong>どこで釣っても高値で売れる宝物魚</strong> が追加で釣れるぷ！<br>
+漁業資源が豊富な釣り場で回数を稼ぐのがポイントぷ。<br>
+ギルドガレーは <strong>最速釣り場に常駐</strong> してるから、ぜひ使うぷ〜！
+</p>
+
+<h2>🗝️ 協力してアトラクシオンを攻略！</h2>
+<p>
+まだ終わってないぷ！<br>
+でも……正直 <strong>時間効率が悪い</strong> から、無理にやらなくてもいいかもしれないぷ。
+</p>
+
+<h2>💎 今週のパール商品</h2>
+<p>
+今週は <strong>特におすすめなしぷ。</strong><br>
+来週いいものが来るのを祈るぷ〜🙏✨
+</p>
+  
