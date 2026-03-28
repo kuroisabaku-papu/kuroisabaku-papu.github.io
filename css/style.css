@@ -237,7 +237,7 @@ body.darkmode .darkmode-button:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 200px; /* ← 高さ固定 */
+  height: 100px; /* ← 高さ固定 */
   padding: 20px;
   box-sizing: border-box;
 }
