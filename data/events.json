@@ -4,6 +4,7 @@
     "start": "2026-03-26",
     "end": "2026-04-16",
     "image": "/images/bouken.png",
+    "alt": "Black Desert Onlineのイベントを示すアイコン",
     "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11713&countryType=ja-JP",
     "type": ""
   },
@@ -12,6 +13,7 @@
     "start": "2026-03-26",
     "end": "2026-04-15",
     "image": "/images/paputakusan1.png",
+    "alt": "Black Desert Onlineのログインイベントを示すアイコン",
     "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11712&countryType=ja-JP",
     "type": "reward"
   },
@@ -20,44 +22,44 @@
     "start": "2026-03-26",
     "end": "2026-04-09",
     "image": "/images/turi.png",
+    "alt": "Black Desert Onlineの生活系釣りイベントを示すアイコン",
     "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11711&countryType=ja-JP",
     "type": "life"
-    "alt": "Black Desert Onlineの生活系釣りイベントを示すアイコン"
   },
   {
     "title": "パトリジオの秘密商店",
     "start": "2026-03-19",
     "end": "2026-04-02",
     "image": "/images/purezento.png",
+    "alt": "Black Desert Onlineのパトリジオイベントを示すアイコン",
     "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11679&countryType=ja-JP",
     "type": "reward"
-    "alt": "Black Desert Onlineのパトリジオイベントを示すアイコン"
   },
   {
     "title": "協力してアトラクシオンを攻略！",
     "start": "2026-03-19",
     "end": "2026-04-01",
     "image": "/images/pt.png",
+    "alt": "Black Desert Onlineのアトラクシオンイベントを示すアイコン",
     "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11678&countryType=ja-JP",
     "type": ""
-    "alt": "Black Desert Onlineのアトラクシオンイベントを示すアイコン"
   },
   {
     "title": "赤兎馬",
     "start": "2026-01-29",
     "end": "2026-06-11",
     "image": "/images/uma.png",
+    "alt": "Black Desert Onlineの調教イベントを示すアイコン",
     "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11498&countryType=ja-JP",
     "type": "life"
-    "alt": "Black Desert Onlineの調教イベントを示すアイコン"
   },
   {
     "title": "ベテラン&ルーキー",
     "start": "2026-03-05",
     "end": "2026-07-09",
     "image": "/images/butubutu.png",
+    "alt": "Black Desert Onlineのベテランルーキーイベントを示すアイコン",
     "link": "https://www.jp.playblackdesert.com/ja-JP/News/Detail?groupContentNo=11616&countryType=ja-JP",
     "type": "reward"
-    "alt": "Black Desert Onlineのベテランルーキーイベントを示すアイコン"
   }
 ]
