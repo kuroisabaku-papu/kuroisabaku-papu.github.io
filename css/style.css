@@ -13,7 +13,7 @@ body {
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  background: rgba(0, 0, 0, 0.65) !important; /* ← 強制透け黒 */
+  background: rgba(0, 0, 0, 0.75) !important; /* ← 強制透け黒 */
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
