@@ -241,3 +241,28 @@ body.darkmode .darkmode-button:hover {
   padding: 20px;
   box-sizing: border-box;
 }
+/* アプデページの次に行くやつぷ名前分らんぷ */
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination a {
+  margin: 0 5px;
+  padding: 6px 10px;
+  background: rgba(0,0,0,0.5);
+  color: #eee;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background: rgba(255,255,255,0.8);
+  color: #333;
+  font-weight: bold;
+}
+
+.pagination a:hover {
+  background: rgba(255,255,255,0.6);
+  color: #333;
+}
