@@ -47,11 +47,47 @@
 
     <p>ここでは、黒い砂漠のアップデート情報をまとめていくぷ。</p>
 
-    <h2>📘 記事一覧</h2>
-    <ul class="article-list">
-<li><a href="updates/2026-03-19-update.html">2026/03/19 アプデ情報まとめぷ</a></li>
-    </ul>
+  <h2>📘 記事一覧</h2>
+    <div id="updates-container"></div>
+    <div id="pagination" class="pagination"></div>
+    <script>
+fetch("/data/updates.json")
+  .then(res => res.json())
+  .then(updates => {
 
+    const params = new URLSearchParams(window.location.search);
+    const page = parseInt(params.get("page") || "1");
+    const perPage = 10;
+
+    const start = (page - 1) * perPage;
+    const end = start + perPage;
+
+    const pageItems = updates.slice(start, end);
+
+    const container = document.getElementById("updates-container");
+    container.innerHTML = "";
+
+    pageItems.forEach(item => {
+      container.innerHTML += `
+        <div class="update-item">
+          <a href="${item.link}">${item.date}｜${item.title}</a>
+        </div>
+      `;
+    });
+
+    // ページ番号生成
+    const totalPages = Math.ceil(updates.length / perPage);
+    const pagination = document.getElementById("pagination");
+    pagination.innerHTML = "";
+
+    for (let i = 1; i <= totalPages; i++) {
+      const active = i === page ? "active" : "";
+      pagination.innerHTML += `
+        <a class="${active}" href="?page=${i}">${i}</a>
+      `;
+    }
+  });
+</script>
   </div>
 </body>
 </html>
