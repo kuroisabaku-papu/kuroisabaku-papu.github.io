@@ -69,12 +69,12 @@ fetch("/data/updates.json")
 
     pageItems.forEach(item => {
       container.innerHTML += `
-        <div class="update-item">
-          <a href="${item.link}">${item.date}｜${item.title}</a>
-        </div>
-      `;
-    });
-
+      <div class="update-item">
+        <a href="${item.link}">${item.title}</a> 
+      </div>
+    `;
+  });
+    
     // ページ番号生成
     const totalPages = Math.ceil(updates.length / perPage);
     const pagination = document.getElementById("pagination");
