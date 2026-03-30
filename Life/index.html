@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>生活 - 神聖パプー帝国</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/menu.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- 共通メニュー -->
+    <div id="menu-container"></div>
+    <script>
+      fetch("/nav.html")
+        .then(res => res.text())
+        .then(html => {
+          document.getElementById("menu-container").innerHTML = html;
+        });
+    </script>
+
+    <h1 class="highlight-black">生活カテゴリぷ</h1>
+
+    <div class="card-grid">
+
+  <a class="card" href="/life/gathering/">
+    <div class="card-title">採集</div>
+  </a>
+
+  <a class="card" href="/life/fishing/">
+    <div class="card-title">釣り</div>
+  </a>
+
+  <a class="card" href="/life/hunting/">
+    <div class="card-title">狩猟</div>
+  </a>
+
+  <a class="card" href="/life/cooking/">
+    <div class="card-title">料理</div>
+  </a>
+
+  <a class="card" href="/life/alchemy/">
+    <div class="card-title">錬金</div>
+  </a>
+
+  <a class="card" href="/life/training/">
+    <div class="card-title">調教</div>
+  </a>
+
+  <a class="card" href="/life/farming/">
+    <div class="card-title">栽培</div>
+  </a>
+
+  <a class="card" href="/life/trade/">
+    <div class="card-title">貿易</div>
+  </a>
+
+  <a class="card" href="/life/processing/">
+    <div class="card-title">加工</div>
+  </a>
+
+  <a class="card" href="/life/sailing/">
+    <div class="card-title">航海</div>
+  </a>
+
+  <a class="card" href="/life/barter/">
+    <div class="card-title">交易</div>
+  </a>
+
+  <a class="card" href="/life/worker/">
+    <div class="card-title">労働者</div>
+  </a>
+
+</div>
+  </div>
+</body>
+</html>
